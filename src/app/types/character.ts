@@ -16,3 +16,7 @@ export interface ApiResponse<T> {
   };
   results: T[];
 }
+
+export interface PaginationProps {
+  totalPages: number
+}
